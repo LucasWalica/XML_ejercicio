@@ -1,0 +1,85 @@
+<modelos>
+
+    <modelo>
+        <nombre>OSI</nombre>
+        <numeroDeCapas>7</numeroDeCapas>
+        <capas>
+
+            <capa>
+                <nombre>Aplicación</nombre>
+                <prestaServiciosA/>
+                <CapropSer>Presentación</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Presentación</nombre>
+                <prestaServiciosA>Aplicación</prestaServiciosA>
+                <CapropSer>Sesión</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Sesión</nombre>
+                <prestaServiciosA>Presentación</prestaServiciosA>
+                <CapropSer>Transporte</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Transporte</nombre>
+                <prestaServiciosA>Sesión</prestaServiciosA>
+                <CapropSer>Red</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Red</nombre>
+                <prestaServiciosA>Transporte</prestaServiciosA>
+                <CapropSer>Enlace de datos</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Enlace de datos</nombre>
+                <prestaServiciosA>Red</prestaServiciosA>
+                <CapropSer>Física</CapropSer>
+            </capa>
+
+             <capa>
+                <nombre>Física</nombre>
+                <prestaServiciosA>Enlace de datos</prestaServiciosA>
+                <CapropSer/>
+            </capa>
+
+        </capas>
+    </modelo>   
+
+    <modelo>
+        <nombre>TCP/IP</nombre>
+        <numeroDeCapas>4</numeroDeCapas>
+        <capas>
+
+            <capa>
+                <nombre>Aplicación</nombre>
+                <prestaServiciosA/>
+                <CapropSer>Transporte</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Transporte</nombre>
+                <prestaServiciosA>Aplicación</prestaServiciosA>
+                <CapropSer>Internet</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Internet</nombre>
+                <prestaServiciosA>Transporte</prestaServiciosA>
+                <CapropSer>Red</CapropSer>
+            </capa>
+
+            <capa>
+                <nombre>Red</nombre>
+                <prestaServiciosA>Internet</prestaServiciosA>
+                <CapropSer/>
+            </capa>
+
+        </capas>
+    </modelo>
+
+</modelos>

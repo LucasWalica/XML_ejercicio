@@ -1,0 +1,63 @@
+<organismos>
+    
+    <organismo>
+        <nombre>Internet Engineering Task Force</nombre>
+        <siglas>IETF</siglas>
+        <anioFundacion>1986</anioFundacion>
+        <tipoDeOrganismo>Comunidad de Ingeniería</tipoDeOrganismo>
+        <tipoDeMiembros>Individuales</tipoDeMiembros>
+        <estandares>
+            <estandar>RFC 791: Internet Protocol</estandar>
+            <estandar>RFC 2616: Hypertext Transfer Protocol</estandar>
+        </estandares>
+    </organismo>
+
+    <organismo>
+        <nombre>Internet Society</nombre>
+        <siglas>ISOC</siglas>
+        <anioFundacion>1992</anioFundacion>
+        <tipoDeOrganismo>Organización sin fines de lucro</tipoDeOrganismo>
+        <tipoDeMiembros>Individuales y Organizacionales</tipoDeMiembros>
+        <estandares>
+            <estandar>RFC 1034: Domain Names - Concepts and Facilities</estandar>
+            <estandar>RFC 2616: Hypertext Transfer Protocol</estandar>
+        </estandares>
+    </organismo>
+
+    <organismo>
+        <nombre>International Telecommunication Union</nombre>
+        <siglas>ITU</siglas>
+        <anioFundacion>1865</anioFundacion>
+        <tipoDeOrganismo>Agencia de la ONU</tipoDeOrganismo>
+        <tipoDeMiembros>Estados y Sector Privado</tipoDeMiembros>
+        <estandares>
+            <estandar>X.25: Packet Switched Data Networks</estandar>
+            <estandar>G.709: Optical Transport Network</estandar>
+        </estandares>
+    </organismo>
+
+    <organismo>
+        <nombre>Institute of Electrical and Electronics Engineers</nombre>
+        <siglas>IEEE</siglas>
+        <anioFundacion>1963</anioFundacion>
+        <tipoDeOrganismo>Profesional</tipoDeOrganismo>
+        <tipoDeMiembros>Individuales y Organizacionales</tipoDeMiembros>
+        <estandares>
+            <estandar>IEEE 802.11</estandar>
+            <estandar>IEEE 802.3</estandar>
+        </estandares>
+    </organismo>
+
+    <organismo>
+        <nombre>International Organization for Standardization</nombre>
+        <siglas>ISO</siglas>
+        <anioFundacion>1947</anioFundacion>
+        <tipoDeOrganismo>Internacional</tipoDeOrganismo>
+        <tipoDeMiembros>Individuales y Organizacionales</tipoDeMiembros>
+        <estandares>
+            <estandar>ISO/IEC 27001:2013</estandar>
+            <estandar>ISO/IEC 8859</estandar>
+        </estandares>
+    </organismo>
+
+</organismos>

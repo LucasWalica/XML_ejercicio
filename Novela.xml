@@ -1,0 +1,16 @@
+<novela>
+    <titulo>La Bestia</titulo>
+    <autores>
+        <autor>Jorge Díaz</autor>
+        <autor>Agustín Martínez</autor>
+        <autor>Antonio Mercero</autor>
+        <pseudonimo>Carmen Mola</pseudonimo>
+    </autores>
+    <editorial>Planeta</editorial>
+    <fechaPublicacion>2021</fechaPublicacion>
+    <genero>Thriller</genero>
+    <premios>
+        <premio>Premio Planeta 2021</premio>
+    </premios>
+    <ISBN>9788408249849</ISBN>
+</novela>
